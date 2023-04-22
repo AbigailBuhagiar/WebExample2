@@ -10,7 +10,11 @@
 <body>
 <h4>Contact Us</h4>
     <div id="ContactFormContainer">
+HEAD
         <form action="mailto:buhagiarabigail24@gmail.com" onsubmit="return validateForm();">
+=======
+        <form action="mailto:buhagiarabigail24@gmail.com">
+>>>>>>> 46e27f14688a6599fe72b42d9f9d34ae9a493b3c
     <!--Search Form [Fill in Box]-->
         <div>
             <label for="FullName">Full Name:</label>
@@ -20,7 +24,10 @@
         <div>
             <label for="Nationality"> Nationality:</label>
             <select name="Nationality" id="Nationality">
+HEAD
                 <option value="0">Select Nationality</option>
+=======
+ 46e27f14688a6599fe72b42d9f9d34ae9a493b3c
                 <option value="1">Maltese</option>
                 <option value="2">English</option>
                 <option value="3">Italian</option>
@@ -63,6 +70,7 @@
         </div>
         <!--Buttons-->
         <button type="submit">Save</button>
+<<<<<<< HEAD
         <button type="reset" onclick="resetForm();">Reset</button>
         </form>
     </div>
@@ -73,5 +81,12 @@
     </div>
 
     <script src="Assets/Script/Validation.js"></script>
+=======
+        <button type="reset">Reset</button>
+        </form>
+    </div>
+    <div id="ContactFormErrors">
+    </div>
+>>>>>>> 46e27f14688a6599fe72b42d9f9d34ae9a493b3c
 </body>
 </html>
