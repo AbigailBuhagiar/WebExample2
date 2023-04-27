@@ -1,2 +1,44 @@
+@font-face {
+    font-family: "Abigral";
+    src: url('../Fonts/Abigral.ttf');
+}
+
+    .btn-purple{
+    background-color: purple;
+    border-color: purple;
+    font-family: 'Abigral';
+}
+
+.btn-purple:hover{
+    background-color: #690069;
+    border-color: #690069;
+}
+
+.btn-purple:hover{
+    background-color: #690069;
+    border-color: #690069;
+}
+
+.btn-purple:active{
+    color: white;
+    background-color: #690069;
+    border-color: #690069;
+}
+
+.btn-purple:disabled{
+    color: grey;
+    background-color: #690069;
+    border-color: #690069;
+}
+
+.btn{
+    font-size: 1.5rem;
+
+}
+
+/* div{
+    border:1px solid rgb(0, 0, 0);
+}
+     */
 
 
